@@ -1,9 +1,9 @@
-[submodule "config"]
-	path = config
-	url = https://github.com/geoserver/geoserver-cloud-config
-	branch = master
 [submodule "geoserver"]
 	path = geoserver_submodule/geoserver
 	url = https://github.com/groldan/geoserver.git
 	branch = gscloud/2.23.x/integration
 	shallow = true
+[submodule "config"]
+	path = config
+	url = https://github.com/fuyi-atlas/geoserver-cloud-config.git
+	branch = dev
